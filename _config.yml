@@ -1,0 +1,4 @@
+markdown: redcarpet
+baseurl: /gsoc-ariane
+exclude: ['README.md']
+theme: jekyll-theme-cayman
