@@ -9,9 +9,17 @@ email:    zach.zheng96@gmail.com
 markdown: redcarpet
 baseurl: /gsoc-ariane
 exclude: ['README.md']
-
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  
 # theme settings
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 logo: "assets/images/ariane_logo.jpg"
 
 # site footer
