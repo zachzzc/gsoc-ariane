@@ -1,4 +1,36 @@
+# Site 
+title:    GSoC-Ariane
+description: "The site for update the progress of Google Summer of Code project."
+
+# personal 
+email:    zach.zheng96@gmail.com
+
+# Jekyll
 markdown: redcarpet
 baseurl: /gsoc-ariane
 exclude: ['README.md']
-theme: jekyll-theme-cayman
+
+# theme settings
+theme: minimal-mistakes-jekyll
+logo: "assets/images/ariane_logo.jpg"
+
+# site footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/zachzzc/ariane"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "zach_zheng96@gmail.com" 
+
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - no_intra_emphasis
+    - fenced_code_blocks
+    - autolink
+    - tables
+    - strikethrough
+    - superscript
+    - with_to_data
