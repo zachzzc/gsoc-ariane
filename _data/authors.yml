@@ -1,0 +1,9 @@
+Zach Zheng:
+  name: "Zhangcheng (Zach) Zheng"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/zachzzc/ariane"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "zach_zheng96@gmail.com" 

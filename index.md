@@ -1,5 +1,6 @@
 --- 
 layout: splash
+title: "Microarchitectural Enhancement Of Ariane"
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/home_background.jpg
@@ -10,7 +11,6 @@ excerpt: >
   The site for updating the progress of Google Summer of Code 2019 project. <br />
 ---
 
-# Microarchitectural Enhancement Of Ariane 
 ## Synopsis
 The RISC-V is an open-source and free ISA (instruction set architecture) developed at the University of California Berkeley. It becomes increasingly popular nowadays, both in industry and academia, because it allows to use the ISA without any royalties and it perfectly fits the implementation of small and low-power hardware such as IoT devices. [Ariane](https://github.com/pulp-platform/ariane) is a 6-stage, linux-capable, open-source processor implementing RISC-V ISA (RV64GC), developed at ETH Zurich. It is highly configurable and well-tested and successfully booting Linux. Currently, the processor is single-issue, meaning that the processor can only issue one instruction per clock cycle. That is a huge performance bottleneck since most functional units in the processor will stay idle when it does not have any instructions to proceed. In this project, I will implement super-scalar issue logic which allows Ariane to issue two (or more) instructions in the same clock cycle so that the overall performance will be greatly improved
 
