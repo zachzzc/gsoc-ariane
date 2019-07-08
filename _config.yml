@@ -2,8 +2,19 @@
 title:    GSoC-Ariane
 description: "The site for update the progress of Google Summer of Code project."
 
-# personal 
-email:    zach.zheng96@gmail.com
+# author
+author:
+  name: "Zhangcheng (Zach) Zheng"
+  bio: ""
+  location : "Fuzhou, China"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/zachzzc/ariane"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:zach_zheng96@gmail.com" 
+
 
 # Jekyll
 markdown: redcarpet
@@ -130,7 +141,7 @@ footer:
       url: "https://github.com/zachzzc/ariane"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "zach_zheng96@gmail.com" 
+      url: "mailto:zach_zheng96@gmail.com" 
 
 markdown: redcarpet
 redcarpet:
