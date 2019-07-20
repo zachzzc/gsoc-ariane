@@ -5,7 +5,9 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/home_background.jpg
   actions:
-    - label: "GitHub"
+    - label: "Original"
+      url: "https://github.com/pulp-platform/ariane"
+    - label: " Forked "
       url: "https://github.com/zachzzc/ariane"
 excerpt: >
   The site for updating the progress of Google Summer of Code 2019 project. <br />
@@ -19,8 +21,8 @@ The RISC-V is an open-source and free ISA (instruction set architecture) develop
 | Task          | Details       | Status        |
 | ------------- | ------------- | ------------- |
 | Wider fetch width | Generalize the instruction realigner in Ariane to support wider fetch width, i.e., 64 bit per fetch | :hourglass: |
-| Proper branch prediction modifications for the widend fetch interface | The instruction frontend and branch prediction will encounter problems when we fetch two instruction from the memory since it is likely that the incoming instruction data is compressed and unaligned (e.g. wrapping a natural 32 bit fetch-boundary). And we also consider to add a gshare global history predictor to increase the performance | :computer: |
-| Enable multi-issue in Ariane | This is the main deliverable of this project which will allow Ariane to issue two (or more) instructions in the same clock cycle | :clock1: |
+| Proper branch prediction modifications for the widend fetch interface | The instruction frontend and branch prediction will encounter problems when we fetch two instruction from the memory since it is likely that the incoming instruction data is compressed and unaligned (e.g. wrapping a natural 32 bit fetch-boundary). And we also consider to add a gshare global history predictor to increase the performance | :hourglass: |
+| Enable multi-issue in Ariane | This is the main deliverable of this project which will allow Ariane to issue two (or more) instructions in the same clock cycle | :computer: |
 | Another ALU (arithmetic logic unit) | If the processor is able to issue two instruction at the same time, it is beneficial to have more functional units to process the incoming instructions at the same time. A new ALU is considered to be added to the execution stage | :clock1: |
 
 :clock1: Not start yet &emsp; :computer: Developing &emsp; :hourglass: Wait for review &emsp; :pushpin: Code pushed

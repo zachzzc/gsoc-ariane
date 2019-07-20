@@ -4,9 +4,15 @@ title: "Wikis"
 permalink: /wikis/
 ---
 
+## July 20, 2019 
+- Push the global predictor improvement and wait for review. [link](https://github.com/pulp-platform/ariane/pull/287)
+- Start designing the multi-issue feature
+- The user-space program is working. It just takes a while to run.
+
 ## July 7, 2019 
 
-- Created github page to track the progress of the project
+- Created github page to track the progress of the project.
+- Great template and easy to use. [mmistakes](https://github.com/mmistakes/minimal-mistakes)
 
 ## July 5, 2019
 
