@@ -3,6 +3,17 @@ layout: single
 title: "Wikis"
 permalink: /wikis/
 ---
+## Aug 19, 2019
+- The misprediction on the same issue cycle can lead to flush other instructions. Modify the scoreboard to catch this..
+- Multi-issue is enabled. Tests pass.
+
+## Aug 10, 2019
+- Modify the interface of all stages to support multi-issue
+- Pass single issue testing 
+
+## Aug 1, 2019
+- Modify the interface of instruction queue to support multi-issue
+- Pass on single issue testing
 
 ## July 20, 2019 
 - Push the global predictor improvement and wait for review. [link](https://github.com/pulp-platform/ariane/pull/287)
