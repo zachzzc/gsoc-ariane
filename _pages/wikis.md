@@ -3,8 +3,14 @@ layout: single
 title: "Wikis"
 permalink: /wikis/
 ---
+
+## Aug 25, 2019
+- Finish about the multi-issue feature
+- Re-name is not implemented yet for mult-issue
+- Push the code of multi-issue and wait for review [link](https://github.com/pulp-platform/ariane/pull/311)
+
 ## Aug 19, 2019
-- The misprediction on the same issue cycle can lead to flush other instructions. Modify the scoreboard to catch this..
+- The misprediction on the same issue cycle can lead to flush other instructions. Modify the scoreboard to catch this.
 - Multi-issue is enabled. Tests pass.
 
 ## Aug 10, 2019

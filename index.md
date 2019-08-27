@@ -22,7 +22,7 @@ The RISC-V is an open-source and free ISA (instruction set architecture) develop
 | ------------- | ------------- | ------------- |
 | Wider fetch width | Generalize the instruction realigner in Ariane to support wider fetch width, i.e., 64 bit per fetch | :pushpin: |
 | Proper branch prediction modifications for the widend fetch interface | The instruction frontend and branch prediction will encounter problems when we fetch two instruction from the memory since it is likely that the incoming instruction data is compressed and unaligned (e.g. wrapping a natural 32 bit fetch-boundary). And we also consider to add a gshare global history predictor to increase the performance | :pushpin: |
-| Enable multi-issue in Ariane | This is the main deliverable of this project which will allow Ariane to issue two (or more) instructions in the same clock cycle | :computer: |
-| Another ALU (arithmetic logic unit) | If the processor is able to issue two instruction at the same time, it is beneficial to have more functional units to process the incoming instructions at the same time. A new ALU is considered to be added to the execution stage | :computer: |
+| Enable multi-issue in Ariane | This is the main deliverable of this project which will allow Ariane to issue two (or more) instructions in the same clock cycle | :hourglass: |
+| Another ALU (arithmetic logic unit) | If the processor is able to issue two instruction at the same time, it is beneficial to have more functional units to process the incoming instructions at the same time. A new ALU is considered to be added to the execution stage | :hourglass: |
 
 :clock1: Not start yet &emsp; :computer: Developing &emsp; :hourglass: Wait for review &emsp; :pushpin: Code pushed
